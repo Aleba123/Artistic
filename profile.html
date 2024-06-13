@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic - Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="profile_styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/Art.png" alt="Artistic Logo">
+                <span>ARTISTIC</span>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Поиск артистов">
+            </div>
+            <div class="user-options">
+                <i class="fa fa-bell icon" aria-hidden="true"></i>
+                <img src="images/avatar.png" alt="User" class="icon">
+            </div>
+        </div>
+    </header>
+    <div class="sidebar">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> Рекомендации</a></li>
+                <li><a href="#"><i class="fa fa-user-friends"></i> Подписки</a></li>
+                <li><a href="messages.html"><i class="fa fa-envelope"></i> Сообщения</a></li>
+                <li><a href="#"><i class="fa fa-upload"></i> Загрузить</a></li>
+                <li>
+                    <a href="#"><i class="fa fa-users"></i> Артисты</a>
+                    <ul class="sub-menu">
+                        <li><a href="#"><i class="fa fa-list"></i> Все</a></li>
+                        <li><a href="#"><i class="fa fa-blog"></i> Блогеры</a></li>
+                        <li><a href="#"><i class="fa fa-music"></i> Музыканты</a></li>
+                        <li><a href="#"><i class="fa fa-paint-brush"></i> Дизайнеры</a></li>
+                        <li><a href="#"><i class="fa fa-camera"></i> Модели</a></li>
+                        <li><a href="#"><i class="fa fa-camera-retro"></i> Фотографы</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main class="main-content">
+        <div class="profile-header">
+            <img src="images/avatar.png" alt="User Avatar" class="profile-avatar">
+            <div class="profile-info">
+                <h2>ChotkiyChel</h2>
+                <p>Alibek Akhmed</p>
+                <p>4 публикаций, 200 подписчиков, 100 подписок</p>
+                <p>Специализация: фотограф, музыкант, блогер, дизайнер</p>
+                <button class="btn-description">открыть описание</button>
+            </div>
+        </div>
+        <div class="profile-navigation">
+            <button class="btn active">Работы</button>
+            <button class="btn">Понравилось</button>
+            <button class="btn">Сохранено</button>
+        </div>
+        <div class="sub-navigation">
+            <button class="btn active">Фотографии</button>
+            <button class="btn">Музыка</button>
+        </div>
+        <div class="gallery">
+            <img src="images/photo1.jpg" alt="Photo 1">
+            <img src="images/photo2.jpg" alt="Photo 2">
+            <img src="images/photo3.jpg" alt="Photo 3">
+            <img src="images/photo4.jpg" alt="Photo 4">
+        </div>
+    </main>
+</body>
+</html>
